@@ -1,0 +1,31 @@
+{
+  "name": "tyjblog",
+  "version": "1.0.0",
+  "description": "唐永杰个人博客",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "tyj",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyj-321/my-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tyj-321/my-blog/issues"
+  },
+  "homepage": "https://github.com/tyj-321/my-blog#readme"
+}
