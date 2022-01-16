@@ -34,7 +34,6 @@ module.exports = {
               '/menu/VueReactive.md',
               '/menu/Typescript.md',
               '/menu/Docker.md',
-              '/menu/workSummary.md',
               '/menu/composition-api.md',
               '/menu/jsextend.md',
               '/menu/modulefederation.md',
@@ -46,7 +45,8 @@ module.exports = {
               '/menu/less-scss.md',
               '/menu/vscodePlugin.md',
               '/menu/chromePlugin.md',
-              '/menu/dataType.md'
+              '/menu/dataType.md',
+              '/menu/workSummary.md',
             ]
           },
           '/menu/teamBuild.md',
