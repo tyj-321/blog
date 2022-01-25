@@ -26,6 +26,7 @@ module.exports = {
             path: '/menu/v-modelSkill.html',
             collapsable: false,
             children: [
+              '/menu/Browser-cache.md',
               '/menu/2021review.md',
               '/menu/v-modelSkill.md',
               '/menu/debounce&throttle.md',
