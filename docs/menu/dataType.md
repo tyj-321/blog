@@ -19,9 +19,12 @@ js是一种弱类型语言，js的变量在没有赋值的时候是没有确定�
 ### `Boolean`运算符转换规则
 - 除了 `undefined`、`null`、`0或-0或+0`、`NaN`、`''`(空字符串)为false   其余全为true
 ### js中数据类型判断
-- `typeof`方法<br>
-1、错误结果：`typeof(null)`会得到结果为`object`<br>
-2、对对象类型及其子类型，如函数、数组都会返回`object`结果
-- `instanceof`方法<br>
-1、`array instanceof object`和`array instanceof array`的结果都是true，因为根据原型链，object的构造函数在arr的原型链上，所以仍然无法判断一个值是数组还是普通对象<br>
-2、`Object.prototype.toString.call()`方法能准确判断所有数据类型
+### `typeof`方法
+- 错误结果：`typeof(null)`会得到结果为`object`<br>
+- 对对象类型及其子类型，如函数、数组都会返回`object`结果
+### `instanceof`方法
+`array instanceof object`和`array instanceof array`的结果都是true，因为根据原型链，object的构造函数在arr的原型链上，所以仍然无法判断一个值是数组还是普通对象
+### `constructor`方法
+除了`undefined`和`null`之外，其他类型都可以通过`constructor`属性来判断类型
+### `Object.prototype.toString.call()`方法
+- `Object.prototype.toString.call()`方法能准确判断所有数据类型
