@@ -22,13 +22,20 @@ module.exports = {
       sidebar: [
           '/menu/introduction.md',
           {
-            title: '一些总结',
-            path: '/menu/v-modelSkill.html',
+            title: '2022',
+            path: '/menu/debugger.html',
             collapsable: false,
             children: [
               '/menu/debugger.md',
               '/menu/css-box.md',
               '/menu/Browser-cache.md',
+            ]
+          },
+          {
+            title: '2021',
+            path: '/menu/2021review.html',
+            collapsable: true,
+            children: [
               '/menu/2021review.md',
               '/menu/v-modelSkill.md',
               '/menu/debounce&throttle.md',
@@ -51,10 +58,10 @@ module.exports = {
               '/menu/chromePlugin.md',
               '/menu/dataType.md',
               '/menu/workSummary.md',
+              '/menu/teamBuild.md',
+              '/menu/teamWork.md',
             ]
-          },
-          '/menu/teamBuild.md',
-          '/menu/teamWork.md',
+          }
         ]
     }
   }
