@@ -26,6 +26,7 @@ module.exports = {
             path: '/menu/v-modelSkill.html',
             collapsable: false,
             children: [
+              '/menu/debugger.md',
               '/menu/css-box.md',
               '/menu/Browser-cache.md',
               '/menu/2021review.md',
