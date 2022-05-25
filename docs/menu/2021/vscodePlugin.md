@@ -12,11 +12,11 @@ yo code
 ```
 - 接着就会出现如下界面
 
-![An image](../public/vscodePlugin/yo.png)
+![An image](../../public/vscodePlugin/yo.png)
 
 - 根据提示选择
 
-![An image](../public/vscodePlugin/yo1.png)
+![An image](../../public/vscodePlugin/yo1.png)
 
 :::tip
 这里根据自己的插件实际情况选择即可
@@ -24,19 +24,19 @@ yo code
 
 - 如此之后就会把你的以上选项配置在`package.json`这个文件中，然后就会产生一个像下面的这样的目录结构，我就用别人的图吧:smirk:
 
-![An image](../public/vscodePlugin/yo2.png)
+![An image](../../public/vscodePlugin/yo2.png)
 
 - 然后用vscode中新建窗口打开这个生产的文件夹，按照下面的步骤开始调试，或者在打开文件后直接使用快捷键F5
 
-![An image](../public/vscodePlugin/yo3.png)
+![An image](../../public/vscodePlugin/yo3.png)
 
 - 这时会打开一个新的窗口，使用快捷键`Ctrl + Shift + p`，在输入框中输入`hello world`
 
-![An image](../public/vscodePlugin/yo4.png)
+![An image](../../public/vscodePlugin/yo4.png)
 
 - 然后就会看到窗口中显示了`hello world`
 
-![An image](../public/vscodePlugin/yo5.png)
+![An image](../../public/vscodePlugin/yo5.png)
 
 - 这样就完成一个简单的vscode插件demo，这个插件的功能代码主要在`extension.js`文件中，下面这句代码就是在窗口中显示字段，[官网的api](https://code.visualstudio.com/api/references/vscode-api#api-patterns)文档提供了可操作的api接口，全是英文看着贼难受:dizzy_face:，oh my god，根据特定需要的功能去找找吧，good luck!:pray:
 ```js

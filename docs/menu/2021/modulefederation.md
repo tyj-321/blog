@@ -53,7 +53,7 @@ plugins: [
         filename: 'remoteEntry.js',
         remotes: {
           share: isProd
-            ? `share@/share/remoteEntry.js`
+            ? `share../../share/remoteEntry.js`
             : `share@http://localhost:9000/remoteEntry.js`
         }
       })
@@ -68,7 +68,7 @@ plugins: [
 
 ```js
 /* share.js */
-import SearchMix from '@/mixins/SearchMix'
+import SearchMix from '../../mixins/SearchMix'
 export default {
     SearchMix
 }
@@ -87,7 +87,7 @@ export const SearchMix = fromShare.SearchMix
 在引用方的组件内部就可以引入并使用
 
 ```js
-import { SearchMix } from '@/share'
+import { SearchMix } from '../../share'
 ```
 
 ## 总结一下

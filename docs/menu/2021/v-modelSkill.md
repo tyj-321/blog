@@ -160,9 +160,9 @@ export default {
 </script>
 ```
 
-![An image](../public/v-modelSkill/image_1.png)
+![An image](../../public/v-modelSkill/image_1.png)
 
-![An image](../public/v-modelSkill/image_2.png)
+![An image](../../public/v-modelSkill/image_2.png)
 
 这种特殊情况，子组件做修改，就会间接影响到曾父组件
 

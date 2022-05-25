@@ -6,16 +6,16 @@
 #### 下面的图很直观得展示了Vue2中的Option API和Vue3中的Composition API的区别
 - Option API需要在指定的区域书写`data`,`computed`,`methods`,`watch`...等代码
 
-![An image](../public/Composition-API/0.jpg)
+![An image](../../public/Composition-API/0.jpg)
 
 - Option API在代码量不是很多的情况下，逻辑还是很清晰的，但是如果复杂度增加，同一个功能的逻辑就会被打碎，可读性就会下降，代码的复用性也不高
 
-![An image](../public/Composition-API/1.jpg)
+![An image](../../public/Composition-API/1.jpg)
 
 - Composition API要解决的就是把相同逻辑的代码放在一块，增加可读性，并提高代码的复用性
 
-![An image](../public/Composition-API/2.jpg)
-![An image](../public/Composition-API/3.jpg)
+![An image](../../public/Composition-API/2.jpg)
+![An image](../../public/Composition-API/3.jpg)
 
 - 在GitHub上有一个[Composition API](https://github.com/vuejs/docs/blob/master/src/guide/composition-api-introduction.md)的使用介绍
 ## 复用逻辑

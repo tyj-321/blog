@@ -43,7 +43,7 @@
 ```
 - 我自己的一个图标`hello.png`
 
-![An image](../public/chromePlugin/hello.png)
+![An image](../../public/chromePlugin/hello.png)
 
 - 修改`manifest.json`，然打开插件时，执行`hello.html`
 ```json
@@ -68,23 +68,23 @@
 ## 安装浏览器插件
 - 打开谷歌浏览器的扩展程序
 
-![An image](../public/chromePlugin/1.png)
+![An image](../../public/chromePlugin/1.png)
 
 - 进入界面打开开发者模式，点击加载已解压的扩展程序，选择你创建的`chromePluginDemo`文件夹
 
-![An image](../public/chromePlugin/2.png)
+![An image](../../public/chromePlugin/2.png)
 
 - 选择插件所在文件夹
 
-![An image](../public/chromePlugin/3.png)
+![An image](../../public/chromePlugin/3.png)
 
 - 最终结果如下
 
-![An image](../public/chromePlugin/4.png)
+![An image](../../public/chromePlugin/4.png)
 
 - 然后在谷歌浏览器里打开插件就会看到下面的效果了
 
-![An image](../public/chromePlugin/5.png)
+![An image](../../public/chromePlugin/5.png)
 
 - 在这里基本就实现了一个简单的`chrome`插件的`demo`，当然你还可以[发布](https://zhuanlan.zhihu.com/p/27203832)到谷歌网上应用商店
 :::tip

@@ -12,16 +12,16 @@ methods: {
 ```
 效果如图 :point_down:
 
-![image-20220217145052738](../public/debugger/1.png)
+![image-20220217145052738](../../public/debugger/1.png)
 
 :::warning
 如果出现报错，需要在`package.json`文件下的`eslintConfig`字段下的`rule`字段添加一条`"no-debugger": "off"`
-![image-20220217145052738](../public/debugger/2.png)
-![image-20220217145052738](../public/debugger/3.png)
+![image-20220217145052738](../../public/debugger/2.png)
+![image-20220217145052738](../../public/debugger/3.png)
 :::
 ## 开始
 调试界面主要操作
-![image-20220217145052738](../public/debugger/4.png)
+![image-20220217145052738](../../public/debugger/4.png)
 ## 总结
 ##### chrome浏览器打断点调试主要步骤
 - 1、在合适的js语句中使用debugger语句，创建断点，运行进入调试界面

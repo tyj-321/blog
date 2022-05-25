@@ -32,7 +32,7 @@ export const Mixins =  {
 在组件1`test1.vue`中对参数进行操作，组件2`test2.vue`中也进行不同于组件1的操作
 
 ```js
-import { Mixins } from '@/mixins/mixins'
+import { Mixins } from '../../mixins/mixins'
     export default {
         name: 'test1',
         mixins: [Mixins],
@@ -47,7 +47,7 @@ import { Mixins } from '@/mixins/mixins'
 ```
 
 ```js
-import { Mixins } from '@/mixins/mixins'
+import { Mixins } from '../../mixins/mixins'
     export default {
         name: 'test2',
         mixins: [Mixins],
@@ -61,7 +61,7 @@ import { Mixins } from '@/mixins/mixins'
     }
 ```
 
-![An image](../public/mixins-vuex/0.png)
+![An image](../../public/mixins-vuex/0.png)
 
 可以看到组件1和组件2中的参数是各自独立的。
 
