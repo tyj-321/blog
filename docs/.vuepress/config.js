@@ -22,9 +22,10 @@ module.exports = {
       sidebar: [
           {
             title: '2022',
-            path: '/menu/2022/weixinOauth.html',
+            path: '/menu/2022/async&await.html',
             collapsable: false,
             children: [
+              '/menu/2022/async&await.md',
               '/menu/2022/weixinOauth.md',
               '/menu/2022/VirtualDOM&Diff.md',
               '/menu/2022/debugger.md',
